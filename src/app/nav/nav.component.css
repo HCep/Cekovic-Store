@@ -12,9 +12,7 @@ nav {
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
-  background: linear-gradient(to bottom, blue, whitesmoke);
-  background: -moz-linear-gradient(to bottom, blue, whitesmoke);
-  background: -webkit-linear-gradient(to bottom, blue, whitesmoke);
+
 }
 
 a {
@@ -60,19 +58,19 @@ a:active {
 }
 
 a:nth-child(4) {
-  animation: RightOne 6s forwards;
+  animation: RightOne 5.8s forwards;
 }
 
 a:nth-child(5) {
-  animation: RightTwo 6s forwards;
+  animation: RightTwo 5.8s forwards;
 }
 
 a:nth-child(3) {
-  animation: LeftOne 6s forwards;
+  animation: LeftOne 5.8s forwards;
 }
 
 a:nth-child(2) {
-  animation: LeftTwo 6s forwards;
+  animation: LeftTwo 5.8s forwards;
 }
 
 .right {
