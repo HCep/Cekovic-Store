@@ -1,16 +1,65 @@
-/* .container {
-  display: block;
-  width: 100%;
+
+*{margin:0;
+padding:0;}
+
+
+
+.container{
+  display:block;
   position: relative;
-  margin: 0 auto;
+  width:60%;
+  margin:0 auto;
+  text-align:justify;
 }
 
-.row {
+.left{
+  display:block;
   position: relative;
-  margin: 0 auto;
-  left: 50%;
-  top: 0;
-  transform: translate(-50%, 0);
+  margin-right:10px;
+  top:auto;
+  left:0;
+  width:50%;
+}
+.center{
+  display:block;
+  position: relative;
 
+  width:50%;
+}
+.social{
+  display:block;
+  position: absolute;
+  top:auto;
+  right:0;
+  margin:10px;
+  width:300px;
+  height:80px;
+}
 
-} */
+.fb-page{
+display:block;
+position: relative;
+top:auto;
+right:0;
+width:100%;
+margin:0 auto;
+
+}
+.header{
+  margin:3% 0;
+  display:inline-block;
+  border-bottom: 1px solid #ddd;
+}
+p{
+  letter-spacing:0.5px;
+}
+.tekst{
+  font-size:18px;
+}
+.letters{
+  
+  text-align:justify;
+}
+.contetnt{
+  margin:5% 0;
+}

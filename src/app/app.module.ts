@@ -9,9 +9,12 @@ import { FooterComponent } from "./footer/footer.component";
 import { RouterModule } from "@angular/router";
 import { CommonModule } from "@angular/common";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { SliderComponent } from './slider/slider.component';
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
+import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent, SliderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -19,6 +22,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     CommonModule,
     RouterModule,
     BrowserAnimationsModule,
+    CarouselModule, WavesModule,NguCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],
