@@ -1,0 +1,46 @@
+<app-nav></app-nav>
+<br>
+
+<div class="row">
+
+<div class="col-sm menu green" (click)="toggleClass()"[class.show]="classApplied">
+
+<h1>Kategorie</h1>
+
+</div>
+<div class="burger">
+  <i class="fas fa-times vis" (click)="toggleClass()"[class.show]="classApplied" [class.left]="classApplied"></i>
+  <i class="fas fa-bars vis"(click)="toggleClass()" [class.vis]="classApplied" [class.left]="classApplied"></i>
+  </div>
+
+<div class="col-sm-6 center">
+<ul class="produckt">
+<li class="items z-depth-5">
+  <img src="..\assets\img\btn4.png" class="pic z-depth-1" alt="produckt" />
+
+
+<p class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis a, consectetur minus, mollitia in dolorum possimus error dolores labore, placeat quas architecto optio saepe. Perferendis mollitia nihil facere nesciunt magni.Voluptatibus ullam ipsam fuga quam animi dolores commodi! Quam optio repudiandae vitae, pariatur sit doloribus dolores accusantium voluptatem, ex non neque blanditiis quis aperiam architecto odio harum ipsam nostrum consectetur!</p>
+<a href="#" mdbBtn class="white-text green button" mdbWavesEffect>Podgląd</a>
+</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+<li class="items z-depth-5">Produckt</li>
+</ul>
+</div>
+<div class="col-sm">
+<div class="social top-fixed scrolling-navbar">
+  <p style="font-size:18px" class="header font-weight-bold">Odwiedź nas na facebooku ;)</p>
+  <div id="fb-root"></div>
+  <div class="fb-page" data-href="https://www.facebook.com/Cekovicwebpl-103744544601616" data-tabs="timeline" data-width="300" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cekovicwebpl-103744544601616" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cekovicwebpl-103744544601616">Cekovicweb.pl</a></blockquote>
+  </div>
+</div>
+</div>
+</div>
+
+<app-footer></app-footer>
