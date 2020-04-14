@@ -3,44 +3,115 @@
 
 <div class="row">
 
-<div class="col-sm menu green" (click)="toggleClass()"[class.show]="classApplied">
-
-<h1>Kategorie</h1>
-
+<div class="col-md baner z-depth-1">
+  <h1 class="title font-weight-bold">Cekovic Store</h1>
 </div>
-<div class="burger">
-  <i class="fas fa-times vis" (click)="toggleClass()"[class.show]="classApplied" [class.left]="classApplied"></i>
-  <i class="fas fa-bars vis"(click)="toggleClass()" [class.vis]="classApplied" [class.left]="classApplied"></i>
+
+  <div class="col-md-5 category ">
+    <ol>
+      <li class="active text-center"> <h4 class="font-weight-bold " style="font-size:35px">Kategorie
+
+        <i class="fas fa-arrow-circle-down"></i>
+      </h4>
+    <ul>
+      <li class="category "><a class="active"href="#">Panele Menu</a></li>
+      <li class="category"><a href="#">Przyciski</a></li>
+      <li class="category"><a href="#">Formularze</a></li>
+      <li class="category"><a href="#">Animacja</a></li>
+
+    </ul>
+  </li>
+  </ol>
   </div>
 
-<div class="col-sm-6 center">
-<ul class="produckt">
-<li class="items z-depth-5">
-  <img src="..\assets\img\btn4.png" class="pic z-depth-1" alt="produckt" />
+<div class="col-lg content">
+
+  <mdb-card class="card">
+    <!--Card image-->
+    <mdb-card-img class="view zoom photo" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" style="height:350px" alt="Card image cap"></mdb-card-img>
+    <!--Card content-->
+    <mdb-card-body class="tekst">
+
+      <!--Title-->
+      <mdb-card-title>
+        <h4 class="text-center">Card Title</h4>
+        <h6 class="grey-text text-center">Author</h6>
+      </mdb-card-title>
+
+      <!--Text-->
+      <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </mdb-card-text>
+
+      <a class="link"href="#" >Szczegóły</a>
+    </mdb-card-body>
+  </mdb-card>
+
+  <mdb-card class="card">
+    <!--Card image-->
+    <mdb-card-img class="view zoom photo" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" style="height:350px" alt="Card image cap"></mdb-card-img>
+    <!--Card content-->
+    <mdb-card-body class="tekst">
+
+      <!--Title-->
+      <mdb-card-title>
+        <h4 class="text-center">Card Title</h4>
+        <h6 class="grey-text text-center">Author</h6>
+      </mdb-card-title>
+
+      <!--Text-->
+      <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </mdb-card-text>
+
+      <a class="link" href="#" >Szczegóły</a>
+    </mdb-card-body>
+  </mdb-card>
+  <mdb-card class="card">
+    <!--Card image-->
+    <mdb-card-img class="view zoom photo" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" style="height:350px" alt="Card image cap"></mdb-card-img>
+    <!--Card content-->
+    <mdb-card-body class="tekst">
+
+      <!--Title-->
+      <mdb-card-title>
+        <h4 class="text-center">Card Title</h4>
+        <h6 class="grey-text text-center">Author</h6>
+      </mdb-card-title>
+
+      <!--Text-->
+      <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </mdb-card-text>
+
+      <a class="link" href="#">Szczegóły</a>
+    </mdb-card-body>
+  </mdb-card>
+  <mdb-card class="card">
+    <!--Card image-->
+    <mdb-card-img class="view zoom photo" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" style="height:350px" alt="Card image cap"></mdb-card-img>
+    <!--Card content-->
+    <mdb-card-body class="tekst">
+
+      <!--Title-->
+      <mdb-card-title>
+        <h4 class="text-center">Card Title</h4>
+        <h6 class="grey-text text-center">Author</h6>
+      </mdb-card-title>
+
+      <!--Text-->
+      <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </mdb-card-text>
+
+      <a class="link" href="#" >Szczegóły</a>
+    </mdb-card-body>
+  </mdb-card>
+
+</div>
 
 
-<p class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis a, consectetur minus, mollitia in dolorum possimus error dolores labore, placeat quas architecto optio saepe. Perferendis mollitia nihil facere nesciunt magni.Voluptatibus ullam ipsam fuga quam animi dolores commodi! Quam optio repudiandae vitae, pariatur sit doloribus dolores accusantium voluptatem, ex non neque blanditiis quis aperiam architecto odio harum ipsam nostrum consectetur!</p>
-<a href="#" mdbBtn class="white-text green button" mdbWavesEffect>Podgląd</a>
-</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-<li class="items z-depth-5">Produckt</li>
-</ul>
-</div>
-<div class="col-sm">
-<div class="social top-fixed scrolling-navbar">
-  <p style="font-size:18px" class="header font-weight-bold">Odwiedź nas na facebooku ;)</p>
-  <div id="fb-root"></div>
-  <div class="fb-page" data-href="https://www.facebook.com/Cekovicwebpl-103744544601616" data-tabs="timeline" data-width="300" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cekovicwebpl-103744544601616" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cekovicwebpl-103744544601616">Cekovicweb.pl</a></blockquote>
-  </div>
-</div>
-</div>
+
 </div>
 
 <app-footer></app-footer>
