@@ -18,9 +18,8 @@ import { ButtonsModule, CardsModule, InputsModule } from 'angular-bootstrap-md';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { KontaktComponent } from './kontakt/kontakt.component';
 import { RecaptchaModule } from 'ng-recaptcha';
-
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent, SliderComponent, SklepComponent, KontaktComponent],
@@ -29,9 +28,6 @@ import { RecaptchaModule } from 'ng-recaptcha';
     MDBBootstrapModule.forRoot(),
     CommonModule,
     RecaptchaModule,
-    FormGroup,
-    FormBuilder,
-    Validators ,
     ButtonsModule,
     HttpClientModule,
     ReactiveFormsModule,

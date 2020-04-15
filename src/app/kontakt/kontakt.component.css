@@ -1,0 +1,13 @@
+form{
+  display:block;
+  position: relative;
+  width:30%;
+  margin:10px auto;
+  background-color: white;
+
+}
+*{ display:block;
+  position: relative;
+  width:100%;
+  background-image: url("src/assets/img/kontakt.png");
+}

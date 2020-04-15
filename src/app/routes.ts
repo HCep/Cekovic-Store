@@ -11,5 +11,6 @@ export const appRoutes: Routes = [
   {path: 'slider', component: SliderComponent},
   {path: 'sklep', component: SklepComponent},
   {path: 'kontakt', component: KontaktComponent},
+
   {path: '**', redirectTo: '', pathMatch: 'full'},
 ];
