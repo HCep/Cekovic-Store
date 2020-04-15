@@ -17,9 +17,10 @@ import { IconsModule } from 'angular-bootstrap-md';
 import { ButtonsModule, CardsModule, InputsModule } from 'angular-bootstrap-md';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { RecaptchaModule } from 'ng-recaptcha';
+
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent, SliderComponent, SklepComponent, KontaktComponent],
@@ -36,6 +37,7 @@ import { RecaptchaModule } from 'ng-recaptcha';
     ReactiveFormsModule,
     FormsModule,
     CardsModule,
+    FormControl,
     InputsModule,
     IconsModule,
     RouterModule.forRoot(appRoutes),
