@@ -1,7 +1,11 @@
+<app-nav></app-nav>
+<br>
 <div class="row">
+<div class="col-md">
 
+</div>
 <!-- Default form contact -->
-<form class="text-center border border-light p-5" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+<form class="text-center border border-light p-5 z-depth-5" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
 
   <p class="h4 mb-4">Napisz do nas</p>
 
@@ -26,6 +30,6 @@
     mdbWavesEffect type="submit" [disabled]="disabledSubmitButton">Wyślij</button>
 
 </form>
-<!-- Default form contact -->
-<app-footer></app-footer>
 </div>
+<app-footer></app-footer>
+

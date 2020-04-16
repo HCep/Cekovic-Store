@@ -61,7 +61,7 @@ li.category{
 
 li.active{
   font-size:24px;
-
+color:rgb(64,64,65);
 
 }
 ol{
@@ -79,20 +79,20 @@ ul{
 li>a{
   display:block;
   text-decoration:none;
-  color:black;
+  color:rgb(64,64,65);
   margin-top:50px;
-  border-top:1px solid black;
-  border-bottom:1px solid black;
+  border-top:1px solid rgb(64,64,65);
+  border-bottom:1px solid rgb(64,64,65);
   height:50px;
   line-height: 50px;
 }
 li>a:hover{
   color:white;
-  background-color: black;
+  background-color: rgb(64,64,65);
 }
 li>a.active{
   color:white;
-  background-color: black;
+  background-color: rgb(64,64,65);
 }
 
 .baner{
@@ -116,9 +116,11 @@ letter-spacing: 1px;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
-  color:grey;
+  color:rgb(64,64,65);
   background-color: transparent;
 }
+
+
 i.fas{
   margin-top:20px;
 }
